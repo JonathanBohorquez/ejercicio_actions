@@ -25,7 +25,7 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: Automated Change
+          commit_message: Commit cron
           commit_user_name: Jonathan Bohorquez
           commit_user_email: bohorquez.jona@hotmail.com
           commit_author: Jonathan
