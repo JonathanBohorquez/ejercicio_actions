@@ -1,0 +1,31 @@
+name: stats
+
+on: 
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5 
+        with:
+          python-version: 'pypy3.11'
+
+      - name: Run script
+        run: python ./stats.py
+
+      - name: Commit and push changes
+      - uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: Automated Change
+          commit_user_name: Jonathan Bohorquez
+          commit_user_email: bohorquez.jona@hotmail.com
+          commit_author: Jonathan
