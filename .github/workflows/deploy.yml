@@ -1,0 +1,35 @@
+name: Deploy Custom Solr
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Set up SSH key
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H 127.0.1.1 >> ~/.ssh/known_hosts
+
+    - name: Copy files and build Solr container
+      run: |
+        rsync -avz --exclude='.git' ./ jjba@127.0.1.1:/home/jjba/solr-custom/
+        ssh jjba@127.0.1.1 << 'EOF'
+          cd /home/jjba/solr-custom
+          docker stop solr-custom || true
+          docker rm solr-custom || true
+          docker build -t solr-custom .
+          docker run -d \
+            --name solr-custom \
+            -p 31029:8983 \
+            solr-custom
+        EOF
