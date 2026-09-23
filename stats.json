@@ -25,13 +25,13 @@
         },
         {
             "order": 4,
-            "name": "heads",
+            "name": "origin",
             "count": 2,
             "percentage": 4.88
         },
         {
             "order": 5,
-            "name": "origin",
+            "name": "heads",
             "count": 2,
             "percentage": 4.88
         },
@@ -43,73 +43,73 @@
         },
         {
             "order": 7,
-            "name": "logs",
-            "count": 1,
-            "percentage": 2.44
-        },
-        {
-            "order": 8,
-            "name": "info",
-            "count": 1,
-            "percentage": 2.44
-        },
-        {
-            "order": 9,
-            "name": "10",
-            "count": 1,
-            "percentage": 2.44
-        },
-        {
-            "order": 10,
             "name": "07",
             "count": 1,
             "percentage": 2.44
         },
         {
-            "order": 11,
-            "name": "d3",
-            "count": 1,
-            "percentage": 2.44
-        },
-        {
-            "order": 12,
-            "name": "82",
-            "count": 1,
-            "percentage": 2.44
-        },
-        {
-            "order": 13,
+            "order": 8,
             "name": "54",
             "count": 1,
             "percentage": 2.44
         },
         {
-            "order": 14,
+            "order": 9,
             "name": "2a",
             "count": 1,
             "percentage": 2.44
         },
         {
-            "order": 15,
-            "name": "1d",
+            "order": 10,
+            "name": "10",
             "count": 1,
             "percentage": 2.44
         },
         {
-            "order": 16,
+            "order": 11,
+            "name": "4e",
+            "count": 1,
+            "percentage": 2.44
+        },
+        {
+            "order": 12,
+            "name": "83",
+            "count": 1,
+            "percentage": 2.44
+        },
+        {
+            "order": 13,
+            "name": "d2",
+            "count": 1,
+            "percentage": 2.44
+        },
+        {
+            "order": 14,
             "name": "4b",
             "count": 1,
             "percentage": 2.44
         },
         {
+            "order": 15,
+            "name": "d3",
+            "count": 1,
+            "percentage": 2.44
+        },
+        {
+            "order": 16,
+            "name": "76",
+            "count": 1,
+            "percentage": 2.44
+        },
+        {
             "order": 17,
-            "name": "71",
+            "name": "logs",
             "count": 1,
             "percentage": 2.44
         },
         {
             "order": 18,
-            "name": "76",
+            "name": "info",
             "count": 1,
             "percentage": 2.44
         }
@@ -135,199 +135,199 @@
         },
         {
             "order": 4,
-            "name": "dockerfile",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 5,
             "name": "readme",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 6,
-            "name": "index",
+            "order": 5,
+            "name": "dockerfile",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 7,
+            "order": 6,
             "name": "fetch_head",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 8,
-            "name": "shallow",
+            "order": 7,
+            "name": "index",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 9,
+            "order": 8,
             "name": "description",
             "count": 1,
             "languages": 1
         },
         {
+            "order": 9,
+            "name": "shallow",
+            "count": 1,
+            "languages": 1
+        },
+        {
             "order": 10,
-            "name": "pre-merge-commit",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 11,
-            "name": "push-to-checkout",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 12,
-            "name": "applypatch-msg",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 13,
-            "name": "pre-push",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 14,
-            "name": "pre-commit",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 15,
-            "name": "pre-applypatch",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 16,
-            "name": "pre-receive",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 17,
-            "name": "post-update",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 18,
-            "name": "fsmonitor-watchman",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 19,
-            "name": "sendemail-validate",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 20,
-            "name": "update",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 21,
-            "name": "commit-msg",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 22,
-            "name": "prepare-commit-msg",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 23,
-            "name": "pre-rebase",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 24,
-            "name": "exclude",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 25,
-            "name": "733f17f9c5c377779c1dbc72037b6d38d35dd7",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 26,
             "name": "31826189813229c4fa569e27fb5486ffba951a",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 27,
-            "name": "74b797c49b95cba20b7f84793aa4cc2ae9bf6a",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 28,
-            "name": "f397a82827fd51cda7212c6f44e58257f3fab4",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 29,
+            "order": 11,
             "name": "a62dbd7682e135dce7d3ee710d0b7dd0b6cbf4",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 30,
+            "order": 12,
             "name": "3e340de3979e64739ad676207034149fcc9cc5",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 31,
-            "name": "8bd16d6e08484122e6a740ca89ec75f9eff1aa",
+            "order": 13,
+            "name": "733f17f9c5c377779c1dbc72037b6d38d35dd7",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 32,
+            "order": 14,
+            "name": "ef372375d2b833a02923181b4e423d38da1db2",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 15,
+            "name": "43caec42d295bc59a69cb274d451d8f2408887",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 16,
+            "name": "571eee6f900a27ceb21d6b81a92fbdc0761b1c",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 17,
             "name": "0143e22981179d42cf81439d40533f6bf5eb1b",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 33,
-            "name": "526e6edeaea8c59035711ae97ee737616d0dec",
+            "order": 18,
+            "name": "74b797c49b95cba20b7f84793aa4cc2ae9bf6a",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 34,
+            "order": 19,
             "name": "bde7e0a004e8608ee2972cdf575f4cb7b5354d",
             "count": 1,
             "languages": 1
         },
         {
+            "order": 20,
+            "name": "pre-merge-commit",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 21,
+            "name": "fsmonitor-watchman",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 22,
+            "name": "pre-push",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 23,
+            "name": "update",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 24,
+            "name": "commit-msg",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 25,
+            "name": "applypatch-msg",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 26,
+            "name": "pre-receive",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 27,
+            "name": "prepare-commit-msg",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 28,
+            "name": "pre-rebase",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 29,
+            "name": "post-update",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 30,
+            "name": "pre-applypatch",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 31,
+            "name": "push-to-checkout",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 32,
+            "name": "pre-commit",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 33,
+            "name": "sendemail-validate",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 34,
+            "name": "exclude",
+            "count": 1,
+            "languages": 1
+        },
+        {
             "order": 35,
-            "name": "deploy",
+            "name": "stats",
             "count": 1,
             "languages": 1
         },
         {
             "order": 36,
-            "name": "stats",
+            "name": "deploy",
             "count": 1,
             "languages": 1
         }
